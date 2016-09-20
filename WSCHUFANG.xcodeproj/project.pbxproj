@@ -163,13 +163,13 @@
 		C034865A1D90EDF900C50CE1 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				C034865B1D90EDF900C50CE1 /* ChuShuo厨说 */,
-				C034865F1D90EDF900C50CE1 /* HomePage首页 */,
 				C03486631D90EDF900C50CE1 /* Main */,
-				C03486671D90EDF900C50CE1 /* Mine我的 */,
-				C034866B1D90EDF900C50CE1 /* Other其它 */,
+				C034865F1D90EDF900C50CE1 /* HomePage首页 */,
 				C034866C1D90EDF900C50CE1 /* Shop商城 */,
 				C03486701D90EDF900C50CE1 /* Teaching教学 */,
+				C034865B1D90EDF900C50CE1 /* ChuShuo厨说 */,
+				C03486671D90EDF900C50CE1 /* Mine我的 */,
+				C034866B1D90EDF900C50CE1 /* Other其它 */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
