@@ -15,6 +15,26 @@
 		C01176AE1D8F87970036C4D1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C01176AD1D8F87970036C4D1 /* Assets.xcassets */; };
 		C01176BC1D8F87970036C4D1 /* WSCHUFANGTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C01176BB1D8F87970036C4D1 /* WSCHUFANGTests.m */; };
 		C01176C71D8F87970036C4D1 /* WSCHUFANGUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C01176C61D8F87970036C4D1 /* WSCHUFANGUITests.m */; };
+		C01743611D9399E700389DE5 /* CWSearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C01743601D9399E700389DE5 /* CWSearchViewController.m */; };
+		C03486761D90F1B300C50CE1 /* CWTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = C03486751D90F1B300C50CE1 /* CWTabBarController.m */; };
+		C03486791D91023300C50CE1 /* CWTabBarButton.m in Sources */ = {isa = PBXBuildFile; fileRef = C03486781D91023300C50CE1 /* CWTabBarButton.m */; };
+		C034867C1D9102E600C50CE1 /* CWTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = C034867B1D9102E600C50CE1 /* CWTabBar.m */; };
+		C04595AD1DAB049600CD5E95 /* HomeDataViewModal.m in Sources */ = {isa = PBXBuildFile; fileRef = C04595AC1DAB049600CD5E95 /* HomeDataViewModal.m */; };
+		C04595B31DAB05C300CD5E95 /* Banner.m in Sources */ = {isa = PBXBuildFile; fileRef = C04595B21DAB05C300CD5E95 /* Banner.m */; };
+		C04595B61DAB060D00CD5E95 /* RecommendUserList.m in Sources */ = {isa = PBXBuildFile; fileRef = C04595B51DAB060D00CD5E95 /* RecommendUserList.m */; };
+		C04595B91DAB06E300CD5E95 /* ButtonList.m in Sources */ = {isa = PBXBuildFile; fileRef = C04595B81DAB06E300CD5E95 /* ButtonList.m */; };
+		C04595FB1DAB498200CD5E95 /* NetworkTool.m in Sources */ = {isa = PBXBuildFile; fileRef = C04595FA1DAB498200CD5E95 /* NetworkTool.m */; };
+		C04595FE1DAB7C9300CD5E95 /* CWCircleView.m in Sources */ = {isa = PBXBuildFile; fileRef = C04595FD1DAB7C9300CD5E95 /* CWCircleView.m */; };
+		C04596071DAB8DDB00CD5E95 /* CWCustomButton.m in Sources */ = {isa = PBXBuildFile; fileRef = C04596061DAB8DDB00CD5E95 /* CWCustomButton.m */; };
+		C045960D1DAB9B0E00CD5E95 /* RecommendUserCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C045960A1DAB9B0E00CD5E95 /* RecommendUserCell.m */; };
+		C045960E1DAB9B0E00CD5E95 /* RecommendUserView.m in Sources */ = {isa = PBXBuildFile; fileRef = C045960C1DAB9B0E00CD5E95 /* RecommendUserView.m */; };
+		C04596111DAB9B8D00CD5E95 /* RecommendUserTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C04596101DAB9B8D00CD5E95 /* RecommendUserTableViewCell.m */; };
+		C08DBE331D92273F00FC08ED /* CWHomeTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C08DBE321D92273F00FC08ED /* CWHomeTableViewController.m */; };
+		C08DBE361D922BEE00FC08ED /* CWHomeNavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = C08DBE351D922BEE00FC08ED /* CWHomeNavigationBar.m */; };
+		C08DBE391D92332200FC08ED /* CWHomeCustomNavBar.m in Sources */ = {isa = PBXBuildFile; fileRef = C08DBE381D92332200FC08ED /* CWHomeCustomNavBar.m */; };
+		C0E18A6D1DA3AB2D00DCA3F9 /* CWHistorySeachRecordScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = C0E18A6C1DA3AB2D00DCA3F9 /* CWHistorySeachRecordScrollView.m */; };
+		C0E18A731DA3DA7400DCA3F9 /* CWHSRTitleView.m in Sources */ = {isa = PBXBuildFile; fileRef = C0E18A721DA3DA7400DCA3F9 /* CWHSRTitleView.m */; };
+		C0E18A761DA3E43200DCA3F9 /* CWHomeHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = C0E18A751DA3E43200DCA3F9 /* CWHomeHeaderView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,6 +87,47 @@
 		C01176C21D8F87970036C4D1 /* WSCHUFANGUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WSCHUFANGUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C01176C61D8F87970036C4D1 /* WSCHUFANGUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WSCHUFANGUITests.m; sourceTree = "<group>"; };
 		C01176C81D8F87970036C4D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C017435F1D9399E700389DE5 /* CWSearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CWSearchViewController.h; sourceTree = "<group>"; };
+		C01743601D9399E700389DE5 /* CWSearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CWSearchViewController.m; sourceTree = "<group>"; };
+		C03486741D90F1B300C50CE1 /* CWTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CWTabBarController.h; sourceTree = "<group>"; };
+		C03486751D90F1B300C50CE1 /* CWTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CWTabBarController.m; sourceTree = "<group>"; };
+		C03486771D91023300C50CE1 /* CWTabBarButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CWTabBarButton.h; sourceTree = "<group>"; };
+		C03486781D91023300C50CE1 /* CWTabBarButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CWTabBarButton.m; sourceTree = "<group>"; };
+		C034867A1D9102E600C50CE1 /* CWTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CWTabBar.h; sourceTree = "<group>"; };
+		C034867B1D9102E600C50CE1 /* CWTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CWTabBar.m; sourceTree = "<group>"; };
+		C04595AB1DAB049600CD5E95 /* HomeDataViewModal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeDataViewModal.h; sourceTree = "<group>"; };
+		C04595AC1DAB049600CD5E95 /* HomeDataViewModal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeDataViewModal.m; sourceTree = "<group>"; };
+		C04595B11DAB05C300CD5E95 /* Banner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Banner.h; sourceTree = "<group>"; };
+		C04595B21DAB05C300CD5E95 /* Banner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Banner.m; sourceTree = "<group>"; };
+		C04595B41DAB060D00CD5E95 /* RecommendUserList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecommendUserList.h; sourceTree = "<group>"; };
+		C04595B51DAB060D00CD5E95 /* RecommendUserList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecommendUserList.m; sourceTree = "<group>"; };
+		C04595B71DAB06E300CD5E95 /* ButtonList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ButtonList.h; sourceTree = "<group>"; };
+		C04595B81DAB06E300CD5E95 /* ButtonList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ButtonList.m; sourceTree = "<group>"; };
+		C04595F91DAB498200CD5E95 /* NetworkTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetworkTool.h; sourceTree = "<group>"; };
+		C04595FA1DAB498200CD5E95 /* NetworkTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetworkTool.m; sourceTree = "<group>"; };
+		C04595FC1DAB7C9300CD5E95 /* CWCircleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CWCircleView.h; sourceTree = "<group>"; };
+		C04595FD1DAB7C9300CD5E95 /* CWCircleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CWCircleView.m; sourceTree = "<group>"; };
+		C04596051DAB8DDB00CD5E95 /* CWCustomButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CWCustomButton.h; sourceTree = "<group>"; };
+		C04596061DAB8DDB00CD5E95 /* CWCustomButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CWCustomButton.m; sourceTree = "<group>"; };
+		C04596091DAB9B0E00CD5E95 /* RecommendUserCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecommendUserCell.h; sourceTree = "<group>"; };
+		C045960A1DAB9B0E00CD5E95 /* RecommendUserCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecommendUserCell.m; sourceTree = "<group>"; };
+		C045960B1DAB9B0E00CD5E95 /* RecommendUserView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecommendUserView.h; sourceTree = "<group>"; };
+		C045960C1DAB9B0E00CD5E95 /* RecommendUserView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecommendUserView.m; sourceTree = "<group>"; };
+		C045960F1DAB9B8D00CD5E95 /* RecommendUserTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecommendUserTableViewCell.h; sourceTree = "<group>"; };
+		C04596101DAB9B8D00CD5E95 /* RecommendUserTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecommendUserTableViewCell.m; sourceTree = "<group>"; };
+		C08DBE311D92273F00FC08ED /* CWHomeTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CWHomeTableViewController.h; sourceTree = "<group>"; };
+		C08DBE321D92273F00FC08ED /* CWHomeTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CWHomeTableViewController.m; sourceTree = "<group>"; };
+		C08DBE341D922BEE00FC08ED /* CWHomeNavigationBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CWHomeNavigationBar.h; sourceTree = "<group>"; };
+		C08DBE351D922BEE00FC08ED /* CWHomeNavigationBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CWHomeNavigationBar.m; sourceTree = "<group>"; };
+		C08DBE371D92332200FC08ED /* CWHomeCustomNavBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CWHomeCustomNavBar.h; sourceTree = "<group>"; };
+		C08DBE381D92332200FC08ED /* CWHomeCustomNavBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CWHomeCustomNavBar.m; sourceTree = "<group>"; };
+		C0E18A6B1DA3AB2D00DCA3F9 /* CWHistorySeachRecordScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CWHistorySeachRecordScrollView.h; sourceTree = "<group>"; };
+		C0E18A6C1DA3AB2D00DCA3F9 /* CWHistorySeachRecordScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CWHistorySeachRecordScrollView.m; sourceTree = "<group>"; };
+		C0E18A701DA3C94500DCA3F9 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		C0E18A711DA3DA7400DCA3F9 /* CWHSRTitleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CWHSRTitleView.h; sourceTree = "<group>"; };
+		C0E18A721DA3DA7400DCA3F9 /* CWHSRTitleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CWHSRTitleView.m; sourceTree = "<group>"; };
+		C0E18A741DA3E43200DCA3F9 /* CWHomeHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CWHomeHeaderView.h; sourceTree = "<group>"; };
+		C0E18A751DA3E43200DCA3F9 /* CWHomeHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CWHomeHeaderView.m; sourceTree = "<group>"; };
 		D34BC40B6092E8F61A520D56 /* Pods-WSCHUFANG.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WSCHUFANG.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WSCHUFANG/Pods-WSCHUFANG.debug.xcconfig"; sourceTree = "<group>"; };
 		D47E272C464848CB1853627D /* Pods-WSCHUFANGUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WSCHUFANGUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WSCHUFANGUITests/Pods-WSCHUFANGUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -218,6 +279,10 @@
 		C03486601D90EDF900C50CE1 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				C08DBE311D92273F00FC08ED /* CWHomeTableViewController.h */,
+				C08DBE321D92273F00FC08ED /* CWHomeTableViewController.m */,
+				C017435F1D9399E700389DE5 /* CWSearchViewController.h */,
+				C01743601D9399E700389DE5 /* CWSearchViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -225,6 +290,14 @@
 		C03486611D90EDF900C50CE1 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				C04595AB1DAB049600CD5E95 /* HomeDataViewModal.h */,
+				C04595AC1DAB049600CD5E95 /* HomeDataViewModal.m */,
+				C04595B11DAB05C300CD5E95 /* Banner.h */,
+				C04595B21DAB05C300CD5E95 /* Banner.m */,
+				C04595B41DAB060D00CD5E95 /* RecommendUserList.h */,
+				C04595B51DAB060D00CD5E95 /* RecommendUserList.m */,
+				C04595B71DAB06E300CD5E95 /* ButtonList.h */,
+				C04595B81DAB06E300CD5E95 /* ButtonList.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -232,6 +305,17 @@
 		C03486621D90EDF900C50CE1 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				C08DBE371D92332200FC08ED /* CWHomeCustomNavBar.h */,
+				C08DBE381D92332200FC08ED /* CWHomeCustomNavBar.m */,
+				C0E18A741DA3E43200DCA3F9 /* CWHomeHeaderView.h */,
+				C0E18A751DA3E43200DCA3F9 /* CWHomeHeaderView.m */,
+				C0E18A711DA3DA7400DCA3F9 /* CWHSRTitleView.h */,
+				C0E18A721DA3DA7400DCA3F9 /* CWHSRTitleView.m */,
+				C0E18A6B1DA3AB2D00DCA3F9 /* CWHistorySeachRecordScrollView.h */,
+				C0E18A6C1DA3AB2D00DCA3F9 /* CWHistorySeachRecordScrollView.m */,
+				C04596081DAB9B0E00CD5E95 /* RecommendUserView */,
+				C04596051DAB8DDB00CD5E95 /* CWCustomButton.h */,
+				C04596061DAB8DDB00CD5E95 /* CWCustomButton.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -249,6 +333,8 @@
 		C03486641D90EDF900C50CE1 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				C03486741D90F1B300C50CE1 /* CWTabBarController.h */,
+				C03486751D90F1B300C50CE1 /* CWTabBarController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -263,6 +349,12 @@
 		C03486661D90EDF900C50CE1 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				C034867A1D9102E600C50CE1 /* CWTabBar.h */,
+				C034867B1D9102E600C50CE1 /* CWTabBar.m */,
+				C03486771D91023300C50CE1 /* CWTabBarButton.h */,
+				C03486781D91023300C50CE1 /* CWTabBarButton.m */,
+				C08DBE341D922BEE00FC08ED /* CWHomeNavigationBar.h */,
+				C08DBE351D922BEE00FC08ED /* CWHomeNavigationBar.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -301,6 +393,11 @@
 		C034866B1D90EDF900C50CE1 /* Other其它 */ = {
 			isa = PBXGroup;
 			children = (
+				C04595FC1DAB7C9300CD5E95 /* CWCircleView.h */,
+				C04595FD1DAB7C9300CD5E95 /* CWCircleView.m */,
+				C0E18A701DA3C94500DCA3F9 /* PrefixHeader.pch */,
+				C04595F91DAB498200CD5E95 /* NetworkTool.h */,
+				C04595FA1DAB498200CD5E95 /* NetworkTool.m */,
 			);
 			path = "Other其它";
 			sourceTree = "<group>";
@@ -365,6 +462,19 @@
 			children = (
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		C04596081DAB9B0E00CD5E95 /* RecommendUserView */ = {
+			isa = PBXGroup;
+			children = (
+				C045960F1DAB9B8D00CD5E95 /* RecommendUserTableViewCell.h */,
+				C04596101DAB9B8D00CD5E95 /* RecommendUserTableViewCell.m */,
+				C045960B1DAB9B0E00CD5E95 /* RecommendUserView.h */,
+				C045960C1DAB9B0E00CD5E95 /* RecommendUserView.m */,
+				C04596091DAB9B0E00CD5E95 /* RecommendUserCell.h */,
+				C045960A1DAB9B0E00CD5E95 /* RecommendUserCell.m */,
+			);
+			path = RecommendUserView;
 			sourceTree = "<group>";
 		};
 		DB3792C67EB4C98E729000EB /* Frameworks */ = {
@@ -656,8 +766,28 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C0E18A731DA3DA7400DCA3F9 /* CWHSRTitleView.m in Sources */,
+				C08DBE361D922BEE00FC08ED /* CWHomeNavigationBar.m in Sources */,
+				C04595FB1DAB498200CD5E95 /* NetworkTool.m in Sources */,
+				C08DBE331D92273F00FC08ED /* CWHomeTableViewController.m in Sources */,
+				C04595B61DAB060D00CD5E95 /* RecommendUserList.m in Sources */,
+				C03486761D90F1B300C50CE1 /* CWTabBarController.m in Sources */,
+				C01743611D9399E700389DE5 /* CWSearchViewController.m in Sources */,
+				C0E18A761DA3E43200DCA3F9 /* CWHomeHeaderView.m in Sources */,
+				C045960E1DAB9B0E00CD5E95 /* RecommendUserView.m in Sources */,
 				C01176A61D8F87970036C4D1 /* AppDelegate.m in Sources */,
+				C04595B91DAB06E300CD5E95 /* ButtonList.m in Sources */,
+				C04595AD1DAB049600CD5E95 /* HomeDataViewModal.m in Sources */,
+				C04595B31DAB05C300CD5E95 /* Banner.m in Sources */,
+				C034867C1D9102E600C50CE1 /* CWTabBar.m in Sources */,
+				C04596071DAB8DDB00CD5E95 /* CWCustomButton.m in Sources */,
+				C0E18A6D1DA3AB2D00DCA3F9 /* CWHistorySeachRecordScrollView.m in Sources */,
+				C045960D1DAB9B0E00CD5E95 /* RecommendUserCell.m in Sources */,
+				C04596111DAB9B8D00CD5E95 /* RecommendUserTableViewCell.m in Sources */,
+				C04595FE1DAB7C9300CD5E95 /* CWCircleView.m in Sources */,
 				C01176A31D8F87970036C4D1 /* main.m in Sources */,
+				C03486791D91023300C50CE1 /* CWTabBarButton.m in Sources */,
+				C08DBE391D92332200FC08ED /* CWHomeCustomNavBar.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -711,6 +841,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -723,10 +854,13 @@
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/WSCHUFANG/Classes/Other其它/PrefixHeader.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
 				);
+				GCC_USE_STANDARD_INCLUDE_SEARCHING = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
@@ -758,6 +892,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -768,6 +903,9 @@
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/WSCHUFANG/Classes/Other其它/PrefixHeader.pch";
+				GCC_USE_STANDARD_INCLUDE_SEARCHING = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;

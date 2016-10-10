@@ -11,6 +11,7 @@ target 'WSCHUFANG' do
   pod 'MJRefresh', '~> 3.1.9'
   pod 'MBProgressHUD', '~> 0.9.2'
   pod 'SDWebImage', '~> 3.8.1'
+#  pod 'Reveal-SDK', :configurations => ['Debug']
   # Pods for WSCHUFANG
 
   target 'WSCHUFANGTests' do
@@ -22,5 +23,6 @@ target 'WSCHUFANG' do
     inherit! :search_paths
     # Pods for testing
   end
+
 
 end
